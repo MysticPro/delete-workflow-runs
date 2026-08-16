@@ -17,6 +17,7 @@ on:
           - "true"
       delete_workflow_pattern:
         description: "Workflow name or filename (omit for all). Use `|` to separate multiple filters (e.g. 'build|deploy')."
+        default: "JD_Sign_Action"
       delete_workflow_by_state_pattern:
         description: "Workflow state: active, deleted, disabled_fork, disabled_inactivity, disabled_manually"
         default: "ALL"
